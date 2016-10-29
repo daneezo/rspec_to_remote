@@ -8,8 +8,8 @@ feature "Sign in page for MDLIVE" do
 
       find("a.showlogin").click
 
-      fill_in 'login[email]', :with => 'sif123'
-      fill_in 'login[password]', :with => 'mdlive789'
+      fill_in 'login[email]', :with => 'demopatient4'
+      fill_in 'login[password]', :with => 'mdlive123'
 
       click_button "Sign In"
       expect(page).to have_content("My Health")
