@@ -27,10 +27,6 @@ feature "Sign in page for MDLIVE" do
     sleep 2
     click_button "Continue"
     all('input[value=no]').map(&:choose)
-    # page.execute_script('$(".control i.continue").trigger("click")')
-    # page.execute_script('$(".control i.continue").trigger("click")')
-    # page.execute_script('$(".control i.Urgent Care").trigger("click")')
-    # click_button
     click_link 'Continue'
     click_link 'Continue'
     click_link ('btnOk')
